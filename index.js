@@ -5,10 +5,9 @@ function divide () {
 
 //arrow function named square that takes one parameter and multiplies by itself
 const square = x => x * x;
-x(2);
 
-//arrow function named add that takes tow parameters and adds them
+//arrow function named add that takes two parameters and adds them
 const add = (a, b) => a + b;
-add(3,4);
-
+const result = add(3, 4);
+console.log(result);
 
